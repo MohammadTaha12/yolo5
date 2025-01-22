@@ -20,7 +20,7 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 print(f"Video frame rate: {fps}")
 
 # Calculate the frame interval (every 3 seconds)
-frame_interval = int(fps * 1)  # 3 seconds
+frame_interval = int(fps * 3)  # 3 seconds
 
 frame_count = 0
 while cap.isOpened():
